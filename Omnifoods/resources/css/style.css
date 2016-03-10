@@ -79,3 +79,38 @@ h1{
     color: #fff;
 
 }
+.navigation {
+    float:right;
+    margin-top: 60px;
+}
+
+.image-logo {
+    margin-top:20px;
+    float:left;
+    height: 150px;
+    width: 150px;
+}
+
+.navigation li{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.navigation li a:link,
+.navigation li a:visited {
+    text-decoration: none;
+    font-size: 90%;
+    text-transform: uppercase;
+    color: #fff;    
+    border-bottom: 1px solid transparent;
+
+}
+
+.navigation li a:hover,
+.navigation li a:active{
+   
+    border-bottom: 1px solid #e67e22;
+    transition: border-bottom 0.4s;
+    
+     
+}
