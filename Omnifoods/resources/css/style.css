@@ -6,10 +6,9 @@
 
 html{
     color: #555;
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
     font-size: 20px;
-    font-weight: 100;
-    text-rendering: optimizeLegibility;
+    font-weight: 300;
 }
 .row{
     width: 1140px;
@@ -113,4 +112,8 @@ h1{
     transition: border-bottom 0.4s;
     
      
+}
+.long-text {
+    text-align: justify;
+    margin-top: 10px;
 }
