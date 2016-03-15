@@ -28,17 +28,42 @@ header{
     transform: translate(-50%,-50%);
 
 }
-h1{
-    font-size: 240%;
-    margin: 0;
-    color: #fff;
+h1,
+h2 {    
     font-weight: 300;
     letter-spacing: 2px;
-    word-spacing: 3px;
-    margin-bottom: 20px;
     margin-top: 0px;
 }
+h1{
+   margin-bottom: 20px;
+    margin-top: 0;
+    font-size: 240%;
+    color: #fff;
+    word-spacing: 3px;
+}
+h2{
+    font-size:180%;
+    text-align: center;
+    word-spacing: 3px;
+    margin-top: 50px;
+       
+}
+h2:after {
+    display: block;
+    width : 100px;
+    content :" ";
+    height: 2px;
+    margin: 0 auto;
+    margin-top :30px;
+    background-color: #e67e22;
+}
 
+h3{
+    font-size: 110%;
+    text-align: center;
+    margin-top : 10px;
+    text-transform: uppercase;
+}
 .btn:link, 
 .btn:visited{
     display: inline-block;
@@ -107,13 +132,52 @@ h1{
 
 .navigation li a:hover,
 .navigation li a:active{
-   
     border-bottom: 1px solid #e67e22;
     transition: border-bottom 0.4s;
-    
-     
 }
-.long-text {
-    text-align: justify;
-    margin-top: 10px;
+
+.section-features {
+    padding-top: 80px 0;
+}
+
+.long-text{
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.box{
+    padding : 15px;
+}
+.box p {
+    margin-top :20px;
+    text-align: left;
+    line-height: 140%;
+    padding :20px;
+    font-size: 90%;
+}
+.custom-icon{
+    font-size: 400%;
+    color: #e67e22;
+    display: block;
+}
+.meals-showcase{
+    list-style: none;
+    width: 100%;
+}
+.meals-showcase li{
+    width: 25%;   
+    display: block;
+    float:left;    
+}
+.meal-photo{
+    width: 100%;
+    margin: 0;
+}
+.meal-photo img{
+    width: 100%;
+    height: auto;
+    
 }
